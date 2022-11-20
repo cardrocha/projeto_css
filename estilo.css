@@ -1,0 +1,176 @@
+/*
+font-family: 'Noto Sans',
+sans-serif;
+font-family: 'Poppins',
+sans-serif;
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(133, 85, 55);
+}
+
+h1, h2, h3, a {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    
+}
+
+p, li {
+    font-family: 'Poppins', sans-serif;
+}
+
+header .container {
+    background-color: rgb(165, 66, 1);
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1 {
+    margin-left: 50px;
+}
+
+nav ul {
+    margin-right: 52px;
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    
+}
+
+img {
+    height: 450px;
+    margin: 20px 20px 0px 20px;
+}
+
+#sobre {
+    display: flex;
+}
+
+#sobre .container {    
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sobre .container p {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.cursos {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-right: 83px;
+}
+
+.cursos li {
+    margin-right: 30px;
+}
+
+#contatos .container h2 {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.container h2 {
+    margin-bottom: 50px;
+}
+
+.metodos-contatos {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+form input{
+    padding: 5px;
+    outline: 0;
+    margin-top: 10px;
+}
+
+form textarea {
+    height: 100px;
+    outline: 0;
+    resize: none;
+    margin-top: 10px;
+}
+
+.metodos-contatos h3 {
+    margin-left: 50px;
+}
+
+input:focus {
+    
+    border-color: rgb(165, 66, 1);
+}
+
+form textarea:focus {
+    border-color: rgb(165, 66, 1);
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: rgb(83, 34, 2);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(165, 66, 1);
+}
+
+.midias-sociais img {
+    height: 25px;
+    cursor: pointer;
+}
+
+address {
+    margin-right: 25px;
+}
+
+footer {
+    background-color: rgb(165, 66, 1);
+    padding: 17px;
+}
+
+footer .float {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.float a {
+    align-items: start;
+    text-decoration: none;
+}
+
+
+
+
+
+
